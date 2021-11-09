@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp spec="7.0+"
-    codebase="https://github.com/torchwood1715/swt-test"
-    href="test.jnlp"
+    codebase="https://github.com/torchwood1715/swt-test/blob/main/jnlp"
+    href="test.jnlp?raw=true"
     version="1.0">
 
   <information>
@@ -13,22 +13,22 @@
 
   <resources>
     <j2se version="17"/>
-    <jar href="lib/SWTmacOSTest-1.0-SNAPSHOT.jar"/>
+    <jar href="lib/SWTmacOSTest-1.0-SNAPSHOT.jar?raw=true"/>
   </resources>
 
   <resources os="Linux" arch="x86_64">
-    <jar href="lib/org.eclipse.swt.gtk.linux.x86_64-3.117.0.jar"/>
+    <jar href="lib/org.eclipse.swt.gtk.linux.x86_64-3.117.0.jar?raw=true"/>
   </resources>
 
   <resources os="Windows">
-    <jar href="lib/org.eclipse.swt.win32.win32.x86_64-3.117.0.jar"/>
+    <jar href="lib/org.eclipse.swt.win32.win32.x86_64-3.117.0.jar?raw=true"/>
   </resources>
 
   <resources os="Mac" arch="x86_64">
-    <jar href="lib/org.eclipse.swt.cocoa.macosx.x86_64-3.117.0.jar"/>
+    <jar href="lib/org.eclipse.swt.cocoa.macosx.x86_64-3.117.0.jar?raw=true"/>
     <j2se version="17" java-vm-args="-XstartOnFirstThread"/>
   </resources>
 
-  <application-desc main-class="org.eclipse.swttest.Main" name="SWT Test" />
+  <application-desc main-class="org.eclipse.swttest.Main" name="SWT Test?raw=true" />
   <update check="always" policy="always" />
 </jnlp>
