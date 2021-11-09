@@ -13,7 +13,7 @@
 
   <resources>
     <j2se version="17"/>
-    <jar href="lib/SWTmacOSTest-1.0-SNAPSHOT.jar?raw=true"/>
+    <jar href="lib/SWTmacOSTest-1.0-SNAPSHOT.jar?raw=true" main="true"/>
   </resources>
 
   <resources os="Linux" arch="x86_64">
