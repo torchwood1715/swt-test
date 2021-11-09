@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <jnlp spec="7.0+"
-    codebase="https://github.com/torchwood1715/swt-test/blob/main/jnlp"
-    href="test.jnlp?raw=true"
-    version="1.0">
+      codebase="https://github.com/torchwood1715/swt-test/blob/main/jnlp"
+      href="test.jnlp?raw=true"
+      version="1.0">
 
   <information>
     <title>SWT Test</title>
